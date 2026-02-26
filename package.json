@@ -1,0 +1,11 @@
+{
+  "name": "mart-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix ./minimart run dev",
+    "install": "npm --prefix ./minimart install",
+    "build": "npm --prefix ./minimart run build",
+    "lint": "npm --prefix ./minimart run lint"
+  }
+}

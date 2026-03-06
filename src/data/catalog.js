@@ -84,4 +84,4 @@ export const ALL_ITEMS = Object.entries(CATALOG)
   .filter(([k]) => k !== "all")
   .flatMap(([cat, data]) => data.items.map(item => ({ ...item, category: cat })));
 
-export const formatPrice = (n) => `$${n.toFixed(2)}`; 
+export const formatPrice = (n) => `$${n.toFixed(2)}`;   
